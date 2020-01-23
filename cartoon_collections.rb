@@ -10,7 +10,7 @@ def summon_captain_planet(words)
 end
 
 def long_planeteer_calls(words)
-  words.
+  words.select
 end
 
 def find_the_cheese# code an argument here
