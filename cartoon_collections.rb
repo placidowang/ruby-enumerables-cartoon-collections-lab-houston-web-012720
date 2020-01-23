@@ -10,11 +10,11 @@ def summon_captain_planet(words)
 end
 
 def long_planeteer_calls(words)
-  if words.select { |word| word.length > 4}
-    return 
-  else
-    return false
-  end
+  p words.select { |word| word.length > 4}
+  #   return 
+  # else
+  #   return false
+  # end
 end
 
 def find_the_cheese# code an argument here
