@@ -10,12 +10,14 @@ def summon_captain_planet(words)
 end
 
 def long_planeteer_calls(words)
-  p words.select { |word| word.length > 4}
-  #   return 
-  # else
-  #   return false
-  # end
+  if words.select { |word| word.length > 4}
+    return 
+  else
+    return false
+  end
 end
+
+long_planeteer_calls(["ad", "adf", "dkajdfk"])
 
 def find_the_cheese# code an argument here
   # the array below is here to help
