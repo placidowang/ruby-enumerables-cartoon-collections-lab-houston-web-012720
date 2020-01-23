@@ -17,7 +17,7 @@ def long_planeteer_calls(words)
   end
 end
 
-long_planeteer_calls(["ad", "adf", "dkajdfk"])
+long_planeteer_calls(["ad", "adf", "dkak"])
 
 def find_the_cheese# code an argument here
   # the array below is here to help
