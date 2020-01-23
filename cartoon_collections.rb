@@ -10,7 +10,7 @@ def summon_captain_planet(words)
 end
 
 def long_planeteer_calls(words)
-  if words.include? { |word| word.length > 4}
+  if words.find { |word| word.length > 4}
     return true
   else
     return false
@@ -21,5 +21,5 @@ def find_the_cheese(strings)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  strings.find { |word| word.find { |cheese| }}
+  strings.find { |word| cheese_types.include?(word)}
 end
